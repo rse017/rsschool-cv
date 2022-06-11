@@ -1,2 +1,2 @@
 # rsschool-cv
-init: start cv task
+https://rse017.github.io/rsschool-cv
