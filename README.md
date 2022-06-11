@@ -1,2 +1,3 @@
 # rsschool-cv
-init: start cv task
+
+https://irinainina.github.io/rsschool-cv/cv
