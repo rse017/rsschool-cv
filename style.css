@@ -1,1 +1,132 @@
-<p style="font-size: 25px;">Первое изменение стиля с помощью CSS</p>
+*{
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1440px;
+  min-width: 480px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: rgb(24, 72, 72);
+  text-align: center;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #829985;
+  border: 1px solid black;
+}
+.nav{
+  width: 80%;
+  display: block;
+
+}
+.nav-list{
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  transition: .3s;
+
+}
+.nav-link:hover{
+  color: black;
+}
+
+.photo{
+  width: 242px;
+  height: 200px;
+  border-radius: 50px;
+
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #748176;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  background-color:    #748176;  
+
+}
+.footer{
+  width: 100%;
+  height: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 1px solid black;
+  background-color: #829985;
+
+}
+.section{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  width: 47%;
+  height: 300px;
+  background-color: #829985;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 0 30px; 
+  text-align: left;
+  font-size: 24px;
+
+}
+.section-profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 47%;
+  height: 300px;
+  background-color: #829985;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.section-foto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 47%;
+  height: 300px;
+  background-color: #829985;
+  border: 1px solid black;
+  margin: 10px;
+
+}
+
+.section-link{
+  text-decoration: none;
+  color: rgb(24, 72, 72);
+}
+
