@@ -1,9 +1,152 @@
-<section>
-  <h2>RS School</h2>
-  <p>
-    RS School — "Это бесплатные курсы для подготовки разработчиков JS".
-  </p>
-  <p>
-    Если вы новичок то RS School вам подойдёт.
-  </p>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/faviconski.ico" rel="shortcut icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+
+    <nav class="nav">
+      <ul class="nav-list">
+          <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+          </li>
+          <li class="header-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+          <li class="header-item">
+              <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="header-item">
+              <a href="#code" class="nav-link">Code</a>
+          </li>
+          <li class="header-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="header-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+      </ul>
+  </nav>        
+  </header>
+  <main class="main">
+    <div class="wrapper">  
+
+      <div class="section-foto">
+        <div class="foto"><img src="./img/avatarka.jpg" alt="photo" class="photo">
+        </div>
+      </div>
+      
+      <section class="section-profile">     
+        <div>
+          <h1 class="section-title">Sergei Romanov</h1>
+          <h3 class="section-text">Beginner Front-End Developer</h3>
+        </div> 
+      </section>
+      
+      <section class="section" id="summary">
+        <div>
+          <h2 class="section-title">Summary</h2>
+          <p class="section-text">
+            I signed up for a free course "JavaScript/Front-end from The Rolling Scopes community in order to get a developer qualification, which will allow me to count on modern and interesting work. This is a big challenge for me, given the lack of any experience in this area.
+          </p>          
+        </div> 
+      </section>
+
+      <section class="section" id="skills">
+        <div>
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              HTML, CSS (basics)
+            </li> 
+            <li class="section-item">
+              JavaScript (in progress)
+            </li>
+            <li class="section-item">
+              GIT, Github
+            </li>
+            <li class="section-item">
+              Figma
+            <li class="section-item">
+              English - A2  
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="code">
+        <div>
+          <h2 class="section-title">Code</h2>
+            <pre class="pre">
+              <code>
+function angle(a, b) {
+  return 180 - a - b;
+}           
+              </code>
+            </pre>
+        </div>
+      </section>
+  
+      <section class="section" id="projects">
+        <div>
+          <h2 class="section-title">Projects</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              <a class="section-link" href="https://rse017.github.io/travel/">Travel</a>
+            </li> 
+            <li class="section-item">
+              <a class="section-link" href="https://rolling-scopes-school.github.io/rse017-JSFEPRESCHOOL2022Q2/momentum/">Momentum</a>
+            </li>
+            <li class="section-item">
+              <a class="section-link" href="https://rse017.github.io/rsschool-cv">CV</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="contacts">
+        <div>
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              Email: <a class="section-link" href="mailto:rse017@gmail.com" title="email">rse017@gmail.com</a>
+            </li> 
+            <li class="section-item">
+              Github: <a class="section-link" href="https://github.com/rse017" title="github">rse017</a>
+            </li>
+            <li class="section-item">
+              Discord: <a class="section-link" href="https://discord.gg/zUr7wWYPXE" title="discord">Sergei.R(@rse017)</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div>
+          <h2 class="section-title">Education</h2>
+          <p> Belarusian-Russian University Mogilev</p>
+          <h2 class="section-title">Courses</h2>
+          <a class="section-link" href="https://rs.school/">RS School JS/FE Pre-School 2022</a>
+        </div>
+      </section>     
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <a href="https://github.com/rse017" class="footer-git"></a>
+      <p>2022</p>
+      <a href="https://rs.school/js/" class="rss"></a>
+      
+    </div>
+  </footer>
+  <script src="script.js"></script> 
+</body>
+</html>
